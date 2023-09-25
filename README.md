@@ -24,7 +24,6 @@ Encountering an EVM revert error when executing transactions.
 
 ```solidity
 // SPDX-License-Identifier: MIT
-... // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
 interface IERC20 {
@@ -53,7 +52,6 @@ contract USDCInteraction {
         return USDC.allowance(owner, spender);
     }
 }
- ...
 ```
 
 # Error Message
